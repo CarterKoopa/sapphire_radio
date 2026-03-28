@@ -6,7 +6,7 @@
 	(paper "USLegal")
 	(title_block
 		(title "Volkswagen Sapphire Radio Conversion")
-		(date "2026-03-21")
+		(date "2026-03-27")
 		(rev "1")
 		(company "Carter Harris - KE8OHO")
 		(comment 1 "AM/FM/Bluetooh Radio with Amplifier")
@@ -2195,6 +2195,247 @@
 								(size 1.016 1.016)
 							)
 						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "carter_kicad_symbols:3549-2 Mini Fuse Holder"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F"
+				(at -2.54 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "3549-2"
+				(at -2.54 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "carter_kicad_footprints:FUSE_3549-2"
+				(at 0.254 11.938 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.keyelco.com/userAssets/file/K75p48.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fuse Block 20 A 500V 1 Circuit Blade Through Hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFN" "Keystone Electronics"
+				(at 0.254 11.938 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MPN" "3549-2"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "DigikeyPN" "36-3549-2-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSCPN" "C3206081"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "3549-2 Mini Fuse Holder_0_0"
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -3.81 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -3.81 0)
+					(mid -1.905 1.8967)
+					(end 0 0)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 3.81 0)
+					(mid 1.905 -1.8967)
+					(end 0 0)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 3.81 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1_1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1_2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2_1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2_2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(symbol "3549-2 Mini Fuse Holder_0_1"
+				(polyline
+					(pts
+						(xy -5.08 2.54) (xy -5.08 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 			)
@@ -9035,6 +9276,12 @@
 		(uuid "4e3964e6-1868-4a8a-9683-32b5b0d79c64")
 	)
 	(junction
+		(at 184.15 17.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5026cb5b-0b00-4620-bfd6-a60ddc64573e")
+	)
+	(junction
 		(at 294.64 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9575,6 +9822,12 @@
 		(uuid "fb9af339-8c86-4569-8d20-7f1ace89e14f")
 	)
 	(junction
+		(at 199.39 15.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fd6d8739-74db-4c60-b8d5-0f80d878aaa2")
+	)
+	(junction
 		(at 153.67 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10088,6 +10341,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 15.24) (xy 184.15 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "203a3d7e-2b1c-45ff-aa29-0ee4d5486056")
+	)
+	(wire
+		(pts
 			(xy 100.33 168.91) (xy 107.95 168.91)
 		)
 		(stroke
@@ -10525,6 +10788,16 @@
 			(type default)
 		)
 		(uuid "3929ecfe-4872-4d95-a2d9-2cffeaa4fc8c")
+	)
+	(wire
+		(pts
+			(xy 199.39 15.24) (xy 199.39 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3aab0eea-409b-4bfb-8752-a1920f989c2c")
 	)
 	(wire
 		(pts
@@ -11065,6 +11338,16 @@
 			(type default)
 		)
 		(uuid "658c14b8-bfb1-4f8c-a97a-f9216cc7f86d")
+	)
+	(wire
+		(pts
+			(xy 199.39 15.24) (xy 203.2 15.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6594395c-41e3-45e9-b55c-467e7afb4df9")
 	)
 	(wire
 		(pts
@@ -11688,16 +11971,6 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 15.24) (xy 184.15 15.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91a1ba94-9540-45ae-9985-308d41bdaaab")
-	)
-	(wire
-		(pts
 			(xy 294.64 71.12) (xy 294.64 67.31)
 		)
 		(stroke
@@ -12248,16 +12521,6 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 15.24) (xy 184.15 19.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b722d1f8-106d-46cf-85de-204fa1a6391b")
-	)
-	(wire
-		(pts
 			(xy 153.67 100.33) (xy 153.67 102.87)
 		)
 		(stroke
@@ -12355,6 +12618,16 @@
 			(type default)
 		)
 		(uuid "ba3c3261-7ac6-4295-b4d7-527b8dad46b7")
+	)
+	(wire
+		(pts
+			(xy 184.15 17.78) (xy 184.15 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "baaa9f72-adb3-49ad-80d5-d5b5bd6f3059")
 	)
 	(wire
 		(pts
@@ -16622,6 +16895,119 @@
 			(project ""
 				(path "/b2cc6a8e-d718-44b3-b274-265d252d3f92"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "carter_kicad_symbols:3549-2 Mini Fuse Holder")
+		(at 191.77 17.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "24323949-6f30-4bea-b225-497abde29d6a")
+		(property "Reference" "F1"
+			(at 191.516 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3549-2"
+			(at 189.23 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "carter_kicad_footprints:FUSE_3549-2"
+			(at 192.024 5.842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.keyelco.com/userAssets/file/K75p48.pdf"
+			(at 191.77 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse Block 20 A 500V 1 Circuit Blade Through Hole"
+			(at 191.77 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "Keystone Electronics"
+			(at 192.024 5.842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "3549-2"
+			(at 191.77 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "36-3549-2-ND"
+			(at 191.77 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSCPN" "C3206081"
+			(at 191.77 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2_2"
+			(uuid "6027b8b1-34e7-4cc0-90a8-36d6784528f5")
+		)
+		(pin "2_1"
+			(uuid "a56fae77-ba68-43bb-8c9f-1ed88ab0646f")
+		)
+		(pin "1_2"
+			(uuid "60aa1f78-d0a7-4c3d-a807-46542feeedb6")
+		)
+		(pin "1_1"
+			(uuid "2921be1f-b115-4c7c-88e0-b42cdae43605")
+		)
+		(instances
+			(project ""
+				(path "/b2cc6a8e-d718-44b3-b274-265d252d3f92"
+					(reference "F1")
 					(unit 1)
 				)
 			)
@@ -21899,6 +22285,33 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 317.5 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "Würth Elektronik"
+			(at 317.5 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "865080545012"
+			(at 317.5 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "732-8511-1-ND"
 			(at 317.5 58.42 0)
 			(effects
 				(font
@@ -27369,6 +27782,33 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 314.96 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "Würth Elektronik"
+			(at 314.96 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "865080545012"
+			(at 314.96 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "732-8511-1-ND"
 			(at 314.96 71.12 0)
 			(effects
 				(font
